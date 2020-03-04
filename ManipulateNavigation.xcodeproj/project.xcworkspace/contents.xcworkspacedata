@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:Tester.xcodeproj">
+      location = "self:/Users/litch/Documents/iOS/Tester/ManipulateNavigation.xcodeproj">
    </FileRef>
 </Workspace>
