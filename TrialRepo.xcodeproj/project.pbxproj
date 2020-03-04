@@ -36,17 +36,17 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		37A585E7240FAEC500386D50 /* ManipulateNavigation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ManipulateNavigation.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		37A585E7240FAEC500386D50 /* TrialRepo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TrialRepo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		37A585EA240FAEC500386D50 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		37A585EC240FAEC500386D50 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		37A585EE240FAEC500386D50 /* HomeController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeController.swift; sourceTree = "<group>"; };
 		37A585F3240FAEC800386D50 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		37A585F6240FAEC800386D50 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		37A585F8240FAEC800386D50 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = source/Info.plist; sourceTree = SOURCE_ROOT; };
-		37A585FD240FAEC900386D50 /* ManipulateNavigationTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ManipulateNavigationTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		37A585FD240FAEC900386D50 /* TrialRepoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TrialRepoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		37A58601240FAEC900386D50 /* TesterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TesterTests.swift; sourceTree = "<group>"; };
 		37A58603240FAEC900386D50 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		37A58608240FAEC900386D50 /* ManipulateNavigationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ManipulateNavigationUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		37A58608240FAEC900386D50 /* TrialRepoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TrialRepoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		37A5860C240FAEC900386D50 /* TesterUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TesterUITests.swift; sourceTree = "<group>"; };
 		37A5860E240FAEC900386D50 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		37A5861E240FB4D100386D50 /* Controller1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Controller1.swift; sourceTree = "<group>"; };
@@ -91,9 +91,9 @@
 		37A585E8240FAEC500386D50 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				37A585E7240FAEC500386D50 /* ManipulateNavigation.app */,
-				37A585FD240FAEC900386D50 /* ManipulateNavigationTests.xctest */,
-				37A58608240FAEC900386D50 /* ManipulateNavigationUITests.xctest */,
+				37A585E7240FAEC500386D50 /* TrialRepo.app */,
+				37A585FD240FAEC900386D50 /* TrialRepoTests.xctest */,
+				37A58608240FAEC900386D50 /* TrialRepoUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -150,9 +150,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		37A585E6240FAEC500386D50 /* ManipulateNavigation */ = {
+		37A585E6240FAEC500386D50 /* TrialRepo */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 37A58611240FAEC900386D50 /* Build configuration list for PBXNativeTarget "ManipulateNavigation" */;
+			buildConfigurationList = 37A58611240FAEC900386D50 /* Build configuration list for PBXNativeTarget "TrialRepo" */;
 			buildPhases = (
 				37A585E3240FAEC500386D50 /* Sources */,
 				37A585E4240FAEC500386D50 /* Frameworks */,
@@ -162,14 +162,14 @@
 			);
 			dependencies = (
 			);
-			name = ManipulateNavigation;
+			name = TrialRepo;
 			productName = Tester;
-			productReference = 37A585E7240FAEC500386D50 /* ManipulateNavigation.app */;
+			productReference = 37A585E7240FAEC500386D50 /* TrialRepo.app */;
 			productType = "com.apple.product-type.application";
 		};
-		37A585FC240FAEC900386D50 /* ManipulateNavigationTests */ = {
+		37A585FC240FAEC900386D50 /* TrialRepoTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 37A58614240FAEC900386D50 /* Build configuration list for PBXNativeTarget "ManipulateNavigationTests" */;
+			buildConfigurationList = 37A58614240FAEC900386D50 /* Build configuration list for PBXNativeTarget "TrialRepoTests" */;
 			buildPhases = (
 				37A585F9240FAEC900386D50 /* Sources */,
 				37A585FA240FAEC900386D50 /* Frameworks */,
@@ -180,14 +180,14 @@
 			dependencies = (
 				37A585FF240FAEC900386D50 /* PBXTargetDependency */,
 			);
-			name = ManipulateNavigationTests;
+			name = TrialRepoTests;
 			productName = TesterTests;
-			productReference = 37A585FD240FAEC900386D50 /* ManipulateNavigationTests.xctest */;
+			productReference = 37A585FD240FAEC900386D50 /* TrialRepoTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		37A58607240FAEC900386D50 /* ManipulateNavigationUITests */ = {
+		37A58607240FAEC900386D50 /* TrialRepoUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 37A58617240FAEC900386D50 /* Build configuration list for PBXNativeTarget "ManipulateNavigationUITests" */;
+			buildConfigurationList = 37A58617240FAEC900386D50 /* Build configuration list for PBXNativeTarget "TrialRepoUITests" */;
 			buildPhases = (
 				37A58604240FAEC900386D50 /* Sources */,
 				37A58605240FAEC900386D50 /* Frameworks */,
@@ -198,9 +198,9 @@
 			dependencies = (
 				37A5860A240FAEC900386D50 /* PBXTargetDependency */,
 			);
-			name = ManipulateNavigationUITests;
+			name = TrialRepoUITests;
 			productName = TesterUITests;
-			productReference = 37A58608240FAEC900386D50 /* ManipulateNavigationUITests.xctest */;
+			productReference = 37A58608240FAEC900386D50 /* TrialRepoUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -226,7 +226,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 37A585E2240FAEC400386D50 /* Build configuration list for PBXProject "ManipulateNavigation" */;
+			buildConfigurationList = 37A585E2240FAEC400386D50 /* Build configuration list for PBXProject "TrialRepo" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -239,9 +239,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				37A585E6240FAEC500386D50 /* ManipulateNavigation */,
-				37A585FC240FAEC900386D50 /* ManipulateNavigationTests */,
-				37A58607240FAEC900386D50 /* ManipulateNavigationUITests */,
+				37A585E6240FAEC500386D50 /* TrialRepo */,
+				37A585FC240FAEC900386D50 /* TrialRepoTests */,
+				37A58607240FAEC900386D50 /* TrialRepoUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -306,12 +306,12 @@
 /* Begin PBXTargetDependency section */
 		37A585FF240FAEC900386D50 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 37A585E6240FAEC500386D50 /* ManipulateNavigation */;
+			target = 37A585E6240FAEC500386D50 /* TrialRepo */;
 			targetProxy = 37A585FE240FAEC900386D50 /* PBXContainerItemProxy */;
 		};
 		37A5860A240FAEC900386D50 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 37A585E6240FAEC500386D50 /* ManipulateNavigation */;
+			target = 37A585E6240FAEC500386D50 /* TrialRepo */;
 			targetProxy = 37A58609240FAEC900386D50 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -498,7 +498,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ManipulateNavigation.app/ManipulateNavigation";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TrialRepo.app/TrialRepo";
 			};
 			name = Debug;
 		};
@@ -520,7 +520,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ManipulateNavigation.app/ManipulateNavigation";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TrialRepo.app/TrialRepo";
 			};
 			name = Release;
 		};
@@ -567,7 +567,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		37A585E2240FAEC400386D50 /* Build configuration list for PBXProject "ManipulateNavigation" */ = {
+		37A585E2240FAEC400386D50 /* Build configuration list for PBXProject "TrialRepo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				37A5860F240FAEC900386D50 /* Debug */,
@@ -576,7 +576,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		37A58611240FAEC900386D50 /* Build configuration list for PBXNativeTarget "ManipulateNavigation" */ = {
+		37A58611240FAEC900386D50 /* Build configuration list for PBXNativeTarget "TrialRepo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				37A58612240FAEC900386D50 /* Debug */,
@@ -585,7 +585,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		37A58614240FAEC900386D50 /* Build configuration list for PBXNativeTarget "ManipulateNavigationTests" */ = {
+		37A58614240FAEC900386D50 /* Build configuration list for PBXNativeTarget "TrialRepoTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				37A58615240FAEC900386D50 /* Debug */,
@@ -594,7 +594,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		37A58617240FAEC900386D50 /* Build configuration list for PBXNativeTarget "ManipulateNavigationUITests" */ = {
+		37A58617240FAEC900386D50 /* Build configuration list for PBXNativeTarget "TrialRepoUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				37A58618240FAEC900386D50 /* Debug */,
