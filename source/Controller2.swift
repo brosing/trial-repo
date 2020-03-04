@@ -1,11 +1,3 @@
-//
-//  ViewController.swift
-//  Tester
-//
-//  Created by Singgih Nn on 04/03/20.
-//  Copyright © 2020 Singgih Nn. All rights reserved.
-//
-
 import UIKit
 
 class Controller2: UIViewController {

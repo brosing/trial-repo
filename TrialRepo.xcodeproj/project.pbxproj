@@ -12,8 +12,8 @@
 		37A585EF240FAEC500386D50 /* HomeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37A585EE240FAEC500386D50 /* HomeController.swift */; };
 		37A585F4240FAEC800386D50 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 37A585F3240FAEC800386D50 /* Assets.xcassets */; };
 		37A585F7240FAEC800386D50 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 37A585F5240FAEC800386D50 /* LaunchScreen.storyboard */; };
-		37A58602240FAEC900386D50 /* TesterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37A58601240FAEC900386D50 /* TesterTests.swift */; };
-		37A5860D240FAEC900386D50 /* TesterUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37A5860C240FAEC900386D50 /* TesterUITests.swift */; };
+		37A58602240FAEC900386D50 /* TrialRepoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37A58601240FAEC900386D50 /* TrialRepoTests.swift */; };
+		37A5860D240FAEC900386D50 /* TrialRepoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37A5860C240FAEC900386D50 /* TrialRepoUITests.swift */; };
 		37A5861F240FB4D100386D50 /* Controller1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37A5861E240FB4D100386D50 /* Controller1.swift */; };
 		37A58621240FB52F00386D50 /* Controller2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37A58620240FB52F00386D50 /* Controller2.swift */; };
 /* End PBXBuildFile section */
@@ -44,10 +44,10 @@
 		37A585F6240FAEC800386D50 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		37A585F8240FAEC800386D50 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = source/Info.plist; sourceTree = SOURCE_ROOT; };
 		37A585FD240FAEC900386D50 /* TrialRepoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TrialRepoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		37A58601240FAEC900386D50 /* TesterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TesterTests.swift; sourceTree = "<group>"; };
+		37A58601240FAEC900386D50 /* TrialRepoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrialRepoTests.swift; sourceTree = "<group>"; };
 		37A58603240FAEC900386D50 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		37A58608240FAEC900386D50 /* TrialRepoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TrialRepoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		37A5860C240FAEC900386D50 /* TesterUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TesterUITests.swift; sourceTree = "<group>"; };
+		37A5860C240FAEC900386D50 /* TrialRepoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrialRepoUITests.swift; sourceTree = "<group>"; };
 		37A5860E240FAEC900386D50 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		37A5861E240FB4D100386D50 /* Controller1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Controller1.swift; sourceTree = "<group>"; };
 		37A58620240FB52F00386D50 /* Controller2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Controller2.swift; sourceTree = "<group>"; };
@@ -82,8 +82,8 @@
 			isa = PBXGroup;
 			children = (
 				37A585E9240FAEC500386D50 /* source */,
-				37A58600240FAEC900386D50 /* TesterTests */,
-				37A5860B240FAEC900386D50 /* TesterUITests */,
+				37A58600240FAEC900386D50 /* TrialRepoTests */,
+				37A5860B240FAEC900386D50 /* TrialRepoUITests */,
 				37A585E8240FAEC500386D50 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -110,22 +110,22 @@
 			path = source;
 			sourceTree = "<group>";
 		};
-		37A58600240FAEC900386D50 /* TesterTests */ = {
+		37A58600240FAEC900386D50 /* TrialRepoTests */ = {
 			isa = PBXGroup;
 			children = (
-				37A58601240FAEC900386D50 /* TesterTests.swift */,
+				37A58601240FAEC900386D50 /* TrialRepoTests.swift */,
 				37A58603240FAEC900386D50 /* Info.plist */,
 			);
-			path = TesterTests;
+			path = TrialRepoTests;
 			sourceTree = "<group>";
 		};
-		37A5860B240FAEC900386D50 /* TesterUITests */ = {
+		37A5860B240FAEC900386D50 /* TrialRepoUITests */ = {
 			isa = PBXGroup;
 			children = (
-				37A5860C240FAEC900386D50 /* TesterUITests.swift */,
+				37A5860C240FAEC900386D50 /* TrialRepoUITests.swift */,
 				37A5860E240FAEC900386D50 /* Info.plist */,
 			);
-			path = TesterUITests;
+			path = TrialRepoUITests;
 			sourceTree = "<group>";
 		};
 		37A5861A240FAFDE00386D50 /* Resources */ = {
@@ -289,7 +289,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				37A58602240FAEC900386D50 /* TesterTests.swift in Sources */,
+				37A58602240FAEC900386D50 /* TrialRepoTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -297,7 +297,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				37A5860D240FAEC900386D50 /* TesterUITests.swift in Sources */,
+				37A5860D240FAEC900386D50 /* TrialRepoUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -378,7 +378,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				INFOPLIST_FILE = Tester/source/info.plist;
+				INFOPLIST_FILE = TrialRepo/source/info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
@@ -386,6 +386,7 @@
 				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
 			};
 			name = Debug;
 		};
@@ -433,13 +434,14 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				INFOPLIST_FILE = Tester/source/info.plist;
+				INFOPLIST_FILE = TrialRepo/source/info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
 				SWIFT_COMPILATION_MODE = wholemodule;
 				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
@@ -455,7 +457,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.litch.Tester;
+				PRODUCT_BUNDLE_IDENTIFIER = com.litch.TrialRepo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -473,7 +475,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.litch.Tester;
+				PRODUCT_BUNDLE_IDENTIFIER = com.litch.TrialRepo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -487,14 +489,14 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 8BL7JMBWS8;
-				INFOPLIST_FILE = TesterTests/Info.plist;
+				INFOPLIST_FILE = TrialRepoTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.litch.TesterTests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.litch.TrialRepoTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -509,14 +511,14 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 8BL7JMBWS8;
-				INFOPLIST_FILE = TesterTests/Info.plist;
+				INFOPLIST_FILE = TrialRepoTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.litch.TesterTests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.litch.TrialRepoTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -530,17 +532,17 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 8BL7JMBWS8;
-				INFOPLIST_FILE = TesterUITests/Info.plist;
+				INFOPLIST_FILE = TrialRepoUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.litch.TesterUITests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.litch.TrialRepoUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = Tester;
+				TEST_TARGET_NAME = TrialRepo;
 			};
 			name = Debug;
 		};
@@ -550,17 +552,17 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 8BL7JMBWS8;
-				INFOPLIST_FILE = TesterUITests/Info.plist;
+				INFOPLIST_FILE = TrialRepoUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.litch.TesterUITests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.litch.TrialRepoUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = Tester;
+				TEST_TARGET_NAME = TrialRepo;
 			};
 			name = Release;
 		};
