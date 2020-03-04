@@ -1,14 +1,6 @@
-//
-//  TesterUITests.swift
-//  TesterUITests
-//
-//  Created by Singgih Nn on 04/03/20.
-//  Copyright © 2020 Singgih Nn. All rights reserved.
-//
-
 import XCTest
 
-class TesterUITests: XCTestCase {
+class TrialRepoUITests: XCTestCase {
 
     override func setUp() {
         // Put setup code here. This method is called before the invocation of each test method in the class.
